@@ -4139,7 +4139,9 @@ img {
   #aa-header .aa-header-bottom .aa-cartbox .aa-cartbox-summary::before {
     left: 52%;
   }
-
+.font10{
+  font-size: 10px;
+}
   #aa-header .aa-header-top .aa-header-top-left .aa-language .btn {
     padding: 6px 1px;
     font-size: 10px;
@@ -4182,7 +4184,9 @@ img {
     margin-bottom: 30px;
     text-align: left; 
 }
-
+.col100{
+    width:100%;
+}
 .seq .seq-model {
     bottom: 0;
 }
@@ -4248,4 +4252,32 @@ img {
     width: 70%;
     z-index: 9999;
     background: white;
+  }
+  .col20{
+    width:20%;
+  }
+  .bgcolor{
+        background: #ff6666 !important;
+  }
+  .ProgressColor{
+    background:#83c44e;
+    color:white;
+    border:1px solid #83c44e;
+  }
+  .ProgressColorIncomplete{
+     background:#ffffff;
+    color:black;
+    border:1px solid #83c44e;
+  }
+  .orderFlow{
+    padding: 0;
+    text-align: center;
+  }
+  .refundBtn{
+   display: block;
+    margin-bottom: 2px;
+    color:white;
+  }
+  .whiteColor{
+    color:white !important;
   }
